@@ -13,6 +13,7 @@ class Testfunciones(unittest.TestCase):
         self.assertEqual(primo(8),0) # if num%2 
 
         self.assertEqual(primo(7),1) #for n
+        self.assertEqual(primo(16),0)
 
     def test_cubica(self):
         self.assertEqual(cubica(0),0)
@@ -23,7 +24,7 @@ class Testfunciones(unittest.TestCase):
         self.assertEqual(saludo("Israel"), "Hola, Israel")
         self.assertEqual(saludo("Francisco"), "Hola, Francisco")
         self.assertIn(saludo("Israel"), "Hola, Israel")
-        self.assertIn(saludo("Francisco"), "Hola, Israel")
+        self.assertIn(saludo("Israel"), "Hola, Israel")
 
 
 
