@@ -25,6 +25,7 @@ class Testfunciones(unittest.TestCase):
         self.assertEqual(saludo("Francisco"), "Hola, Francisco")
         self.assertIn(saludo("Israel"), "Hola, Israel")
         self.assertIn(saludo("Israel"), "Hola, Israel")
+        self.assertEqual(saludo("Karla"), "Hola, Karla")
 
 
 
